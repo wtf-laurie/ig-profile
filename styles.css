@@ -1,0 +1,33 @@
+body
+{
+	background-color: white
+}
+
+.container
+{
+	width: 1080px;
+	align-content: center;
+	background-color: white;
+	border-style: solid, width: 3px, color: #DDDDDD;
+}
+
+#top-bar
+{
+	height: 145px;
+	background-image: url("images/Top-Bar.png");
+	background-repeat: no-repeat;
+	align-items: center;
+}
+
+#follower-count
+{
+	height: 355px;
+	background-image: url("images/Follower-Count.png");
+}
+
+#profile-picture
+{
+	border-radius: 50%;
+	height: 255px;
+	margin-top, margin-left: 
+}
