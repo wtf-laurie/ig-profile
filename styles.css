@@ -3,6 +3,18 @@ body
 	background-color: white
 }
 
+h1
+{
+	font-size: 50px;
+	font-family: Helvetica;
+}
+
+p
+{
+	font-size: 50px;
+	font-family: Helvetica;
+}
+
 #container
 {
 	width: 1080px;
@@ -29,13 +41,8 @@ body
 {
 	border-radius: 50%;
 	height: 255px;
-	margin-top: 53px;
+	margin-top: 54px;
 	margin-left: 58px;
-}
-
-#pictures
-{
-
 }
 
 .ig-image
@@ -44,4 +51,27 @@ body
 	height: 325px;
 	width: 325px;
 	padding: 10px;
+}
+
+#zoom
+{
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+#zoom:hover 
+{
+    transform: scale(1.5)
+}
+
+#zoom-video
+{
+	transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+#zoom-video:hover
+{
+	transform: scale(1.5)
+	
 }
