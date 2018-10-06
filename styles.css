@@ -3,24 +3,12 @@ body
 	background-color: white
 }
 
-h1
-{
-	font-size: 50px;
-	font-family: Helvetica;
-}
-
-p
-{
-	font-size: 50px;
-	font-family: Helvetica;
-}
-
 #container
 {
 	width: 1080px;
-	align-content: center;
 	background-color: white;
 	border-style: solid, width: 3px, color: #DDDDDD;
+	align-self: center;
 }
 
 #top-bar
@@ -29,20 +17,49 @@ p
 	background-image: url("images/Top-Bar.png");
 	background-repeat: no-repeat;
 	text-align: center;
+	font-family: Helvetica;
+}
+
+#username
+{
+	font-family: Helvetica;
+	font-size: 48px;
+	padding: 48px;
 }
 
 #follower-count
 {
 	height: 355px;
 	background-image: url("images/Follower-Count.png");
+	background-repeat: no-repeat;
 }
 
 #profile-picture
 {
 	border-radius: 50%;
 	height: 255px;
-	margin-top: 54px;
+	margin-top: 53px;
 	margin-left: 58px;
+}
+
+#bio
+{
+	font-family: Helvetica;
+	font-size: 35px;
+}
+
+#photo-bar
+{
+	height: 140px;
+	background-image: url("images/Photo-Bar.png");
+	background-repeat: no-repeat;
+}
+
+#pictures
+{
+	height: 720px;
+	width: 1080px;
+	background-repeat: no-repeat;
 }
 
 .ig-image
@@ -51,27 +68,21 @@ p
 	height: 325px;
 	width: 325px;
 	padding: 10px;
+	background-size: cover;
 }
 
-#zoom
+video
 {
-    transition: transform .2s; /* Animation */
-    margin: 0 auto;
+	cursor: pointer;
+	display: inline-block;
+	height: 325px;
+	width: 325px;
+	padding: 10px;
 }
 
-#zoom:hover 
+#bottom-bar
 {
-    transform: scale(1.5)
-}
-
-#zoom-video
-{
-	transition: transform .2s; /* Animation */
-    margin: 0 auto;
-}
-
-#zoom-video:hover
-{
-	transform: scale(1.5)
-	
+	height: 135px;
+	background-image: url("images/Bottom-Bar.png");
+	background-repeat: no-repeat;
 }
